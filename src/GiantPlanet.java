@@ -1,8 +1,8 @@
 
 /**
  * @author chandan
- * @Version 1.0
- * @Description : Creating Planet Class which describes the qualities of the planets
+ * @Version 1.4
+ * @Description : Creating Giant Planet Class wich is a sub class of Planets
  */
 
 public class GiantPlanet extends Planet implements IHasMoons, IHasRings {

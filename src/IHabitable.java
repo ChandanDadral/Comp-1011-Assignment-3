@@ -1,8 +1,9 @@
 
 /**
  * @author chandan
- * @Version 1.0
- * @Description : Creating Planet Class which describes the qualities of the planets
+ * @Version 1.4
+ * @Description : Habitable Interface which has boolean Habitabe
+ * 
  */
 public interface IHabitable {
 	 	Boolean Habitable();

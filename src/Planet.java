@@ -1,11 +1,10 @@
-/**
- * 
- */
+
 
 /**
  * @author chandan
- * @Version 1.0
+ * @Version 1.4
  * @Description : Creating Planet Class which describes the qualities of the planets
+ * also created interfaces
  */
 public class Planet {
 
