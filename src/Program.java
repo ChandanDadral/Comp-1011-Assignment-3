@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * @author chandan
@@ -9,6 +10,8 @@ public class Program {
 
 public static void main(String[] args) {
 		
+		waitForAnyKey();
+	
 		GiantPlanet jupiter = new GiantPlanet("Jupiter", 87, 555, "Gas");
 		System.out.println(jupiter.toString());
 		
@@ -18,4 +21,14 @@ public static void main(String[] args) {
 		System.out.println(venus.toString());
 		
 		}
-}
+
+//This methods asks for the key from the user to Continue.
+public static void waitForAnyKey() {
+	String key;
+	
+    System.out.println("Please Enter Any Key To Continue");
+    Scanner input=new Scanner(System.in);
+    key = input.next();
+    
+	}
+}//main ends here

@@ -2,7 +2,7 @@
 /**
  * @author chandan
  * @Version 1.4
- * @Description : Habitable Interface which has boolean Habitabe
+ * @Description : added the interface to check whether planet is habitable or not
  * 
  */
 public interface IHabitable {

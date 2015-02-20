@@ -1,8 +1,8 @@
 
 /**
  * @author chandan
- * @Version 1.0
- * @Description : I has Moon Interface 
+ * @Version 1.4
+ * @Description : added the interface to check whether planet is habitable
  */
 public interface IHasMoons {
 	  Boolean HasMoons();

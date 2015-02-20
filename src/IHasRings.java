@@ -2,7 +2,7 @@
 /**
  * @author chandan
  * @Version 1.4
- * @Description : Creating Planet Class which describes the qualities of the planets
+ * @Description : added the interface to check whether planet has ring
  */
 public interface IHasRings {
 	  Boolean HasRings();
